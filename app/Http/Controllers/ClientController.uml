@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Http\Controllers\ClientController</OriginalElement>
+  <nodes>
+    <node x="475.0" y="291.0">\App\Http\Controllers\ClientController</node>
+    <node x="170.0" y="391.0">\App\Http\Controllers\RoomsController</node>
+    <node x="737.0" y="391.0">\App\Http\Controllers\ReservationsController</node>
+    <node x="329.25" y="0.0">\Illuminate\Routing\Controller</node>
+    <node x="411.75" y="212.0">\App\Http\Controllers\Controller</node>
+    <node x="0.0" y="391.0">\App\Http\Controllers\ContentsController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\App\Http\Controllers\ReservationsController" target="\App\Http\Controllers\Controller">
+      <point x="0.0" y="-25.5" />
+      <point x="901.5" y="261.0" />
+      <point x="486.125" y="261.0" />
+      <point x="31.875" y="14.5" />
+    </edge>
+    <edge source="\App\Http\Controllers\RoomsController" target="\App\Http\Controllers\Controller">
+      <point x="0.0" y="-25.5" />
+      <point x="312.5" y="271.0" />
+      <point x="443.625" y="271.0" />
+      <point x="-10.625" y="14.5" />
+    </edge>
+    <edge source="\App\Http\Controllers\ClientController" target="\App\Http\Controllers\Controller">
+      <point x="0.0" y="-125.5" />
+      <point x="596.0" y="271.0" />
+      <point x="464.875" y="271.0" />
+      <point x="10.625" y="14.5" />
+    </edge>
+    <edge source="\App\Http\Controllers\ContentsController" target="\App\Http\Controllers\Controller">
+      <point x="0.0" y="-25.5" />
+      <point x="75.0" y="261.0" />
+      <point x="422.375" y="261.0" />
+      <point x="-31.875" y="14.5" />
+    </edge>
+    <edge source="\App\Http\Controllers\Controller" target="\Illuminate\Routing\Controller">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9439252336448598" x="525.0" y="237.0" />
+  <SelectedNodes>
+    <node>\App\Http\Controllers\ClientController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
